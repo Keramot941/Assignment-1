@@ -1,5 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Raleway:wght@100&family=Roboto:wght@100&family=Work+Sans:wght@300&display=swap'); */
-
+*{
+    text-decoration: none;
+    list-style: none;
+}
 .banner{
     background: url(/img/banner.png) no-repeat;
     height: 500px;
@@ -73,6 +76,61 @@ img.card-img-top.nuno {
 .sl-p-h{
     text-align: center;
 }
+
+.bdt {
+    font-size: 23px;
+    color: azure;
+    font-weight: 600;
+}
 .end{
     margin-top: 25px;
+}
+.perplayer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.manager {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 8px
+}
+.coach{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.bsec-i{
+    width: 105px;
+}
+.cal{
+    color: #050605;
+    background: lightgreen;
+    border-radius: 5px;
+}
+.total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.select-player{
+    border: 2px white;
+}
+.copy-right{
+    color: rgb(179, 125, 27);
+
+}
+footer-end{
+    height: 158px;
+    
+
+}
+
+.text-list{
+    text-decoration: none;
+    list-style: none;
 }
