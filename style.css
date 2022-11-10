@@ -134,3 +134,6 @@ footer-end{
     text-decoration: none;
     list-style: none;
 }
+.disable {
+    pointer-events: none;
+}

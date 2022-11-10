@@ -4,8 +4,10 @@ let count = 0;
 var li = document.createElement("li");
 
 function getName(arrayPlayer) {
+    
     const getObject = document.getElementById('show-name');
     getObject.innerHTML = "";
+    
     for (let i = 0; i < arrayPlayer.length; i++) {
         if(arrayPlayer.length === 6){
             return;
@@ -15,8 +17,11 @@ function getName(arrayPlayer) {
             li.innerHTML = ` <li class="text-white ms-2 " style='list-style-type: none;
             '}>${i + 1}. ${arrayPlayer[i]}</li>`
             getObject.appendChild(li);
+         
         }
+        
     }
+   
 }
 function addCart(element) {
     let playerName = element.parentNode.children[0].innerText;
