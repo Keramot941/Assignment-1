@@ -4,7 +4,7 @@
     list-style: none;
 }
 .banner{
-    background: url(/img/banner.png) no-repeat;
+    background: url(/img/banner.png) ;
     height: 500px;
     width: 100%;
     background-position: center;
