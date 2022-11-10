@@ -16,8 +16,13 @@
     color: #fff;
 }
 .txt .title{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lobster', cursive;
     color: #ff5e19;
+    font-size: 58px;
+    font-weight: 500;
+}
+.all-t{
+    text-align: center;
 }
 .pr_row{
     padding-top: 30px;
